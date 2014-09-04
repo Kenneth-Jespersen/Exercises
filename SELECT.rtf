@@ -1,0 +1,35 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1265\cocoasubrtf210
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural
+
+\f0\fs24 \cf0 SELECT column_name FROM table_name;\
+\
+SELECT name FROM customers;\
+\
+SELECT phone FROM customers;\
+\
+SELECT phone, name FROM customers;\
+\
+SELECT name, last_name FROM customers;\
+\
+SELECT name, last_name, phone, email FROM customers\
+\
+SELECT email, phone FROM customers;\
+\
+SELECT * FROM customers;\
+\
+SELECT name FROM customers WHERE last_name = 'Hansen';\
+\
+SELECT name, last_name FROM customers WHERE name = 'Per';\
+\
+SELECT * FROM customers WHERE phone = 82647351;\
+\
+SELECT name, phone FROM customers WHERE email = 'bent@kea.dk';\
+\
+SELECT id FROM customers WHERE email = 'pave@kea.dk';\
+ \
+SELECT * FROM customers WHERE name AND last_name LIKE '%alcohol%';\
+\
+SELECT name, last_name FROM customers WHERE email = 'clbo@kea.dk';}
